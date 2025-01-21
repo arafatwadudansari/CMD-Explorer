@@ -10,13 +10,13 @@ def run_command(command):
 def execute_command():
     cmd = command_var.get()  # Get the selected command
     if cmd == 'ping':
-        command = 'ping ' + ping_entry.get()  # Target for ping
+        command = 'ping' + ping_entry.get()  # Target for ping
     elif cmd == 'tracert':
-        command = 'tracert ' + tracert_entry.get()  # Target for tracert
+        command = 'tracert' + tracert_entry.get()  # Target for tracert
     elif cmd == 'nslookup':
-        command = 'nslookup ' + nslookup_entry.get()  # Target for nslookup
+        command = 'nslookup' + nslookup_entry.get()  # Target for nslookup
     elif cmd == 'pathping':
-        command = 'pathping ' + pathping_entry.get()  # Target for pathping
+        command = 'pathping' + pathping_entry.get()  # Target for pathping
     elif cmd == 'ipconfig':
         command = 'ipconfig'  # No extra input needed
     elif cmd == 'netstat':
